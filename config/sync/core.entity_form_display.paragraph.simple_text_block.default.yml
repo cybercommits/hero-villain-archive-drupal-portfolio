@@ -1,0 +1,25 @@
+uuid: c80c9665-a2db-4326-b104-c426001cf5db
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.simple_text_block.field_content
+    - paragraphs.paragraphs_type.simple_text_block
+  module:
+    - text
+id: paragraph.simple_text_block.default
+targetEntityType: paragraph
+bundle: simple_text_block
+mode: default
+content:
+  field_content:
+    type: text_textarea
+    weight: 0
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

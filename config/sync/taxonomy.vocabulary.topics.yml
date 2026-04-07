@@ -1,0 +1,9 @@
+uuid: 18d4cb83-d772-4c8a-b3ac-5bd1585a3b85
+langcode: en
+status: true
+dependencies: {  }
+name: Topics
+vid: topics
+description: 'Primary categorization for Marvel content (e.g., Movies, Comics, Characters).'
+weight: 0
+new_revision: true

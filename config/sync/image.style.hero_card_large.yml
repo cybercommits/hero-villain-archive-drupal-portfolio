@@ -1,0 +1,15 @@
+uuid: 7dccee84-b192-4100-99d4-1cf6a45b735f
+langcode: en
+status: true
+dependencies: {  }
+name: hero_card_large
+label: Hero_Card_Large
+effects:
+  7bb6107c-1d03-45b5-b734-8cedbf880262:
+    uuid: 7bb6107c-1d03-45b5-b734-8cedbf880262
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1200
+      height: 600
+      anchor: center-center

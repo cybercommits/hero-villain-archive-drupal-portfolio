@@ -1,0 +1,31 @@
+uuid: 6b5f9469-5ad8-47c3-bd52-746833dc1bef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_page_components
+    - node.type.article
+    - paragraphs.paragraphs_type.simple_text_block
+  module:
+    - entity_reference_revisions
+id: node.article.field_page_components
+field_name: field_page_components
+entity_type: node
+bundle: article
+label: 'Page Components'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      simple_text_block: simple_text_block
+    negate: 0
+    target_bundles_drag_drop:
+      simple_text_block:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions
